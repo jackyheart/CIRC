@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090EFE38146116B100ADCC41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090EFE37146116B100ADCC41 /* UIKit.framework */; };
+		090EFE3A146116B100ADCC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090EFE39146116B100ADCC41 /* Foundation.framework */; };
+		090EFE3C146116B100ADCC41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090EFE3B146116B100ADCC41 /* CoreGraphics.framework */; };
+		090EFE42146116B100ADCC41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE40146116B100ADCC41 /* InfoPlist.strings */; };
+		090EFE44146116B100ADCC41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EFE43146116B100ADCC41 /* main.m */; };
+		090EFE48146116B100ADCC41 /* CIRCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EFE47146116B100ADCC41 /* CIRCAppDelegate.m */; };
+		090EFE4B146116B100ADCC41 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE49146116B100ADCC41 /* MainWindow.xib */; };
+		090EFE4E146116B100ADCC41 /* CIRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EFE4D146116B100ADCC41 /* CIRCViewController.m */; };
+		090EFE51146116B200ADCC41 /* CIRCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE4F146116B200ADCC41 /* CIRCViewController.xib */; };
+		090EFE5D1461175900ADCC41 /* hook.png in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE581461175900ADCC41 /* hook.png */; };
+		090EFE5E1461175900ADCC41 /* pirate.png in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE591461175900ADCC41 /* pirate.png */; };
+		090EFE5F1461175900ADCC41 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE5A1461175900ADCC41 /* ship.png */; };
+		090EFE601461175900ADCC41 /* steer_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE5B1461175900ADCC41 /* steer_wheel.png */; };
+		090EFE611461175900ADCC41 /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE5C1461175900ADCC41 /* water.jpg */; };
+		090EFE6B1461185700ADCC41 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EFE681461185700ADCC41 /* CustomView.m */; };
+		090EFE6C1461185700ADCC41 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EFE6A1461185700ADCC41 /* Util.m */; };
+		090EFE7114611B8900ADCC41 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE7014611B8900ADCC41 /* fish.png */; };
+		090EFE871461312B00ADCC41 /* BadaBoom BB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE851461312B00ADCC41 /* BadaBoom BB.TTF */; };
+		090EFE881461312B00ADCC41 /* Rockwell Extra Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090EFE861461312B00ADCC41 /* Rockwell Extra Bold.ttf */; };
+		090EFE8B1461324F00ADCC41 /* LabelScoreDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EFE8A1461324E00ADCC41 /* LabelScoreDisplay.m */; };
+		090EFE8E1461335100ADCC41 /* LabelScoreValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EFE8D1461335100ADCC41 /* LabelScoreValue.m */; };
+		090EFE901461400000ADCC41 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090EFE8F1461400000ADCC41 /* QuartzCore.framework */; };
+		090EFEA614614F6D00ADCC41 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 090EFEA514614F6D00ADCC41 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090EFE33146116B100ADCC41 /* Fishing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fishing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090EFE37146116B100ADCC41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		090EFE39146116B100ADCC41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		090EFE3B146116B100ADCC41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		090EFE3F146116B100ADCC41 /* Fishing-Info.plist */ = {isa = PBXFileReference; path = "Fishing-Info.plist"; sourceTree = "<group>"; };
+		090EFE41146116B100ADCC41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		090EFE43146116B100ADCC41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		090EFE45146116B100ADCC41 /* Fishing-Prefix.pch */ = {isa = PBXFileReference; path = "Fishing-Prefix.pch"; sourceTree = "<group>"; };
+		090EFE46146116B100ADCC41 /* CIRCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIRCAppDelegate.h; sourceTree = "<group>"; };
+		090EFE47146116B100ADCC41 /* CIRCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIRCAppDelegate.m; sourceTree = "<group>"; };
+		090EFE4A146116B100ADCC41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		090EFE4C146116B100ADCC41 /* CIRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIRCViewController.h; sourceTree = "<group>"; };
+		090EFE4D146116B100ADCC41 /* CIRCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIRCViewController.m; sourceTree = "<group>"; };
+		090EFE50146116B200ADCC41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CIRCViewController.xib; sourceTree = "<group>"; };
+		090EFE581461175900ADCC41 /* hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hook.png; sourceTree = "<group>"; };
+		090EFE591461175900ADCC41 /* pirate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pirate.png; sourceTree = "<group>"; };
+		090EFE5A1461175900ADCC41 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		090EFE5B1461175900ADCC41 /* steer_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steer_wheel.png; sourceTree = "<group>"; };
+		090EFE5C1461175900ADCC41 /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
+		090EFE671461185700ADCC41 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		090EFE681461185700ADCC41 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		090EFE691461185700ADCC41 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		090EFE6A1461185700ADCC41 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		090EFE7014611B8900ADCC41 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		090EFE851461312B00ADCC41 /* BadaBoom BB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BadaBoom BB.TTF"; sourceTree = "<group>"; };
+		090EFE861461312B00ADCC41 /* Rockwell Extra Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rockwell Extra Bold.ttf"; sourceTree = "<group>"; };
+		090EFE891461324E00ADCC41 /* LabelScoreDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelScoreDisplay.h; sourceTree = "<group>"; };
+		090EFE8A1461324E00ADCC41 /* LabelScoreDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelScoreDisplay.m; sourceTree = "<group>"; };
+		090EFE8C1461335100ADCC41 /* LabelScoreValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelScoreValue.h; sourceTree = "<group>"; };
+		090EFE8D1461335100ADCC41 /* LabelScoreValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelScoreValue.m; sourceTree = "<group>"; };
+		090EFE8F1461400000ADCC41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		090EFEA514614F6D00ADCC41 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090EFE30146116B100ADCC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EFE901461400000ADCC41 /* QuartzCore.framework in Frameworks */,
+				090EFE38146116B100ADCC41 /* UIKit.framework in Frameworks */,
+				090EFE3A146116B100ADCC41 /* Foundation.framework in Frameworks */,
+				090EFE3C146116B100ADCC41 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090EFE28146116B100ADCC41 = {
+			isa = PBXGroup;
+			children = (
+				090EFE3D146116B100ADCC41 /* CIRC */,
+				090EFE36146116B100ADCC41 /* Frameworks */,
+				090EFE34146116B100ADCC41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090EFE34146116B100ADCC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090EFE33146116B100ADCC41 /* Fishing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090EFE36146116B100ADCC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				090EFE8F1461400000ADCC41 /* QuartzCore.framework */,
+				090EFE37146116B100ADCC41 /* UIKit.framework */,
+				090EFE39146116B100ADCC41 /* Foundation.framework */,
+				090EFE3B146116B100ADCC41 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		090EFE3D146116B100ADCC41 /* CIRC */ = {
+			isa = PBXGroup;
+			children = (
+				090EFE841461312B00ADCC41 /* font */,
+				090EFE661461185700ADCC41 /* customUI */,
+				090EFE571461175900ADCC41 /* images */,
+				090EFE46146116B100ADCC41 /* CIRCAppDelegate.h */,
+				090EFE47146116B100ADCC41 /* CIRCAppDelegate.m */,
+				090EFE49146116B100ADCC41 /* MainWindow.xib */,
+				090EFE4C146116B100ADCC41 /* CIRCViewController.h */,
+				090EFE4D146116B100ADCC41 /* CIRCViewController.m */,
+				090EFE4F146116B200ADCC41 /* CIRCViewController.xib */,
+				090EFE3E146116B100ADCC41 /* Supporting Files */,
+			);
+			path = CIRC;
+			sourceTree = "<group>";
+		};
+		090EFE3E146116B100ADCC41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090EFE3F146116B100ADCC41 /* Fishing-Info.plist */,
+				090EFE40146116B100ADCC41 /* InfoPlist.strings */,
+				090EFE43146116B100ADCC41 /* main.m */,
+				090EFE45146116B100ADCC41 /* Fishing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		090EFE571461175900ADCC41 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				090EFEA514614F6D00ADCC41 /* Icon.png */,
+				090EFE7014611B8900ADCC41 /* fish.png */,
+				090EFE581461175900ADCC41 /* hook.png */,
+				090EFE591461175900ADCC41 /* pirate.png */,
+				090EFE5A1461175900ADCC41 /* ship.png */,
+				090EFE5B1461175900ADCC41 /* steer_wheel.png */,
+				090EFE5C1461175900ADCC41 /* water.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		090EFE661461185700ADCC41 /* customUI */ = {
+			isa = PBXGroup;
+			children = (
+				090EFE671461185700ADCC41 /* CustomView.h */,
+				090EFE681461185700ADCC41 /* CustomView.m */,
+				090EFE691461185700ADCC41 /* Util.h */,
+				090EFE6A1461185700ADCC41 /* Util.m */,
+				090EFE891461324E00ADCC41 /* LabelScoreDisplay.h */,
+				090EFE8A1461324E00ADCC41 /* LabelScoreDisplay.m */,
+				090EFE8C1461335100ADCC41 /* LabelScoreValue.h */,
+				090EFE8D1461335100ADCC41 /* LabelScoreValue.m */,
+			);
+			path = customUI;
+			sourceTree = "<group>";
+		};
+		090EFE841461312B00ADCC41 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				090EFE851461312B00ADCC41 /* BadaBoom BB.TTF */,
+				090EFE861461312B00ADCC41 /* Rockwell Extra Bold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090EFE32146116B100ADCC41 /* Fishing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090EFE54146116B200ADCC41 /* Build configuration list for PBXNativeTarget "Fishing" */;
+			buildPhases = (
+				090EFE2F146116B100ADCC41 /* Sources */,
+				090EFE30146116B100ADCC41 /* Frameworks */,
+				090EFE31146116B100ADCC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fishing;
+			productName = CIRC;
+			productReference = 090EFE33146116B100ADCC41 /* Fishing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090EFE2A146116B100ADCC41 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 090EFE2D146116B100ADCC41 /* Build configuration list for PBXProject "Fishing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 090EFE28146116B100ADCC41;
+			productRefGroup = 090EFE34146116B100ADCC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090EFE32146116B100ADCC41 /* Fishing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090EFE31146116B100ADCC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EFE42146116B100ADCC41 /* InfoPlist.strings in Resources */,
+				090EFE4B146116B100ADCC41 /* MainWindow.xib in Resources */,
+				090EFE51146116B200ADCC41 /* CIRCViewController.xib in Resources */,
+				090EFE5D1461175900ADCC41 /* hook.png in Resources */,
+				090EFE5E1461175900ADCC41 /* pirate.png in Resources */,
+				090EFE5F1461175900ADCC41 /* ship.png in Resources */,
+				090EFE601461175900ADCC41 /* steer_wheel.png in Resources */,
+				090EFE611461175900ADCC41 /* water.jpg in Resources */,
+				090EFE7114611B8900ADCC41 /* fish.png in Resources */,
+				090EFE871461312B00ADCC41 /* BadaBoom BB.TTF in Resources */,
+				090EFE881461312B00ADCC41 /* Rockwell Extra Bold.ttf in Resources */,
+				090EFEA614614F6D00ADCC41 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090EFE2F146116B100ADCC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EFE44146116B100ADCC41 /* main.m in Sources */,
+				090EFE48146116B100ADCC41 /* CIRCAppDelegate.m in Sources */,
+				090EFE4E146116B100ADCC41 /* CIRCViewController.m in Sources */,
+				090EFE6B1461185700ADCC41 /* CustomView.m in Sources */,
+				090EFE6C1461185700ADCC41 /* Util.m in Sources */,
+				090EFE8B1461324F00ADCC41 /* LabelScoreDisplay.m in Sources */,
+				090EFE8E1461335100ADCC41 /* LabelScoreValue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		090EFE40146116B100ADCC41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090EFE41146116B100ADCC41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		090EFE49146116B100ADCC41 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090EFE4A146116B100ADCC41 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		090EFE4F146116B200ADCC41 /* CIRCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090EFE50146116B200ADCC41 /* en */,
+			);
+			name = CIRCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090EFE52146116B200ADCC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		090EFE53146116B200ADCC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090EFE55146116B200ADCC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIRC/Fishing-Prefix.pch";
+				INFOPLIST_FILE = "CIRC/Fishing-Info.plist";
+				PRODUCT_NAME = Fishing;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		090EFE56146116B200ADCC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIRC/Fishing-Prefix.pch";
+				INFOPLIST_FILE = "CIRC/Fishing-Info.plist";
+				PRODUCT_NAME = Fishing;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090EFE2D146116B100ADCC41 /* Build configuration list for PBXProject "Fishing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090EFE52146116B200ADCC41 /* Debug */,
+				090EFE53146116B200ADCC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090EFE54146116B200ADCC41 /* Build configuration list for PBXNativeTarget "Fishing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090EFE55146116B200ADCC41 /* Debug */,
+				090EFE56146116B200ADCC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090EFE2A146116B100ADCC41 /* Project object */;
+}
